@@ -1,0 +1,303 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url("image/fruitsjpg.jpg") rgba(68, 65, 65, 0.1);
+    background-attachment: fixed;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 3.0;
+}
+.titre{
+    text-align: center;
+    padding: 30px;
+}
+.titre h5{
+    color: rgb(224, 7, 7);
+    font-weight: bold;
+    font-size: 15px;
+}
+.titre h1{
+    color: white;
+    font-size: 50px;
+}
+.menu{
+   background-color: #490909;
+   width: 100%;
+
+}
+ul{
+    text-align: center;
+    padding: 30px 0px;
+}
+ul li{
+    display: inline;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    margin-left: 3rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.fresh-cofee{
+    Width: 100%;
+    background: #F6E1C5;
+    padding: 40px;
+    border-radius: 5px;
+    margin-left: 6rem;
+    
+}
+.fresh-cofee h2{
+    color: #5a5454;
+}
+.fresh{
+    z-index: 16;
+    margin: auto;
+}
+.work{
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 100;
+line-height: 39px;
+letter-spacing: 0.19em;
+text-align: center;
+}
+
+.btn-Visit a{
+    Width: 150px;
+    height: 60px;
+    background: #7B261A;
+    text-align: center;
+    margin-top: -1.5rem;
+    margin-left: 10rem;
+}
+.photo-unsplash{
+    width: 100%;
+    border-radius: 5px;
+    margin: auto;
+    margin-left: -5rem;
+}
+.home2{
+width: 100%;
+padding: 4rem;
+border: 1px;
+background: #A5342BB0;
+}
+.alignement{
+width: 100%;
+padding: 16px;
+border: 1px solid #F6E1C5;
+border-radius: 5px;
+
+}
+.fresh-maron{
+width: 100%;
+background: #F6E1C5;
+padding: 45px;
+border-radius: 5px;
+margin: auto;
+}
+h4{
+font-size: 20px;
+}
+h2{
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 100;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+/* section About */
+.about-cofee{
+width: 726px;
+border-radius: 5px;
+background: #F6E1C5;
+margin: auto;
+padding: 55px;
+margin-top: -9rem;
+
+}
+.photo-about {
+width: 100%;
+}
+.about-text{
+z-index: 20px;
+}
+
+/* section Products */
+.div-cadeau{
+width: 100%;
+margin: auto;
+}
+.index{
+padding: 5rem; 
+}
+.photo1{
+margin-top: -8rem;
+}
+h3{
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 100;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+    
+}
+.cofee-teas{
+width: 413px;
+z-index: 20;
+margin-left: auto;
+padding: 35px;
+border-radius: 5px;
+background: #F6E1C5;
+margin-top: -5rem;
+}
+.text{
+width: 413px;
+border-radius: 5px;
+background: #F6E1C5;
+padding: 20px;
+margin-right: auto;
+z-index: 20px;
+margin-top: -5rem;
+}
+.cofee-bakery{
+    width: 413px;
+    z-index: 20;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background: #F6E1C5;
+    margin-top: -5rem;
+}
+.text-lorem{
+    width: 413px;
+    border-radius: 5px;
+    background: #F6E1C5;
+    padding: 20px;
+    margin-left: auto;
+    z-index: 20px;
+    margin-top: -5rem;
+    }
+.bakery{
+    font-size: 30px;
+}
+
+/* section Storie */
+.storie2{
+    width: 100%;
+    padding: 8rem;
+    border: 1px;
+    background: #A5342BB0; 
+}
+.inner-alignement{
+width: 100%;
+margin: auto;
+padding: 9px;
+border-radius: 5px;
+border: 2px;
+border: 3px solid #CD5449
+}
+.come-on{
+width: 100%;
+height: 100%;
+border-radius: 5px;
+background: #F6E1C5;
+}
+.grp-orchard .date{
+    justify-content: space-around;
+}
+.thurs{
+    color: #A5342B;
+}
+hr{
+width: 540px;
+height: 3px;
+margin: auto;
+background: #CFAFAD;
+
+}
+
+/* footer */
+.footer{
+width: 100%;
+height: 120px;
+background: #311919;
+}
+.footer p{
+text-align: center;
+padding: 3rem;
+}
+
+@media screen and (max-width: 556px) {
+.titre h5{
+font-size: 10px;
+}
+.titre h1{
+font-size: 20px;
+}
+.menu ul li a{
+font-size: small;
+}
+.photo-unsplash{
+margin:auto;
+}
+.fresh-cofee{
+margin:auto;  
+}
+.btn-Visit a{
+margin:auto;
+}
+.div-cadeau{
+width: 100%;
+padding: 1rem;
+}
+.cofee-teas, h6, h3{
+font-size: 10px;
+}
+.text{
+font-size: 10px;
+margin: auto;          
+}
+.photo1{
+margin: auto;
+margin-top: 0.1rem;           
+}
+.text-lorem{
+font-size: 10px;
+margin-top: 2rem;
+}
+.bakery{
+font-size: small;
+}
+}
+
+@media screen and (max-width: 996px) {
+.about-cofee{
+width: 100%;
+} 
+.about-text{
+padding: 30px 10px;
+margin-top: 9rem;
+font-size: 10px;
+} 
+.promise, h2, h4{
+font-size: 10px;
+} 
+.index{
+ margin: auto;     
+}
+hr{
+width: 100%;
+}
+.storie2{
+width: 100%;
+font-size: 9px;
+margin: auto;
+}
+
+}
